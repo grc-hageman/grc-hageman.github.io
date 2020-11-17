@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/hearts.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	
@@ -68,33 +68,39 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: pink; /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px dotted white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    width: 670px;
+    height: 600px;
+    margin-top: 85px;
+    margin-bottom: 20px;
+    margin-right: inherit;
+    margin-left:inherit;
 	text-align: center;
 }
 
 h1 {
-	font-family: rixstarlight-pro, sans-serif;
-    font-weight: 300;
+	font-family: tomarik-display, sans-serif;
+    font-weight: 400;
     font-style: normal;
-	font-size: 2em;
+	font-size: 3em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 h2 {
-	 font-family: rixstarlight-pro, sans-serif;
-    font-weight: 300;
+	font-family: goodlife-script, sans-serif;
+    font-weight: 400;
     font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
@@ -113,11 +119,11 @@ p {
 }
     
 nav{
-     font-family: garamond;
+     font-family: rixstarlight-pro, sans-serif;
      font size: 1.2 em;
      width: 400px;
      margin: 0 auto;
-     border: dashed turquoise; 
+     border: dotted deeppink; 
      border-width: 3px 0;
      text-align: center;
      margin-top: 2em;
@@ -133,12 +139,12 @@ nav a {
     }
 
 a{
-    color: #444;
+    color: ghostwhite;
     text-decoration: none;
     font-weight: bold;
     }
 
 a:hover {
-    color:black;
-    background: pink;    
+    color:white;
+    background: deeppink;    
     }
