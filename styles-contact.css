@@ -80,10 +80,10 @@ html, body {
 
    
 #logo {
-    width: 670px;
-    height: 600px;
-    margin-top: 85px;
-    margin-bottom: 20px;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     margin-right: inherit;
     margin-left:inherit;
 	text-align: center;
@@ -113,14 +113,14 @@ p {
 	font-family: rixstarlight-pro, sans-serif;
     font-weight: 300;
     font-style: normal;		;
-	font-size: 1.2em;
+	font-size: 1.4em;
     line-height: 1.6;
     color: #fff;
 }
     
 nav{
      font-family: rixstarlight-pro, sans-serif;
-     font size: 1.2 em;
+     font size: 3.6 em;
      width: 400px;
      margin: 0 auto;
      border: dotted deeppink; 
@@ -142,6 +142,7 @@ a{
     color: ghostwhite;
     text-decoration: none;
     font-weight: bold;
+    font-size: .8cm; 
     }
 
 a:hover {
